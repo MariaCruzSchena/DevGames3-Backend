@@ -1,18 +1,18 @@
-const { DataTypes, Model } = require('sequelize');
-const db = require('../db');
+const { DataTypes, Model } = require("sequelize");
+const db = require("../db");
 
 class Library extends Model {}
 
-Library.init({
-
+Library.init(
+  {
     owner: {
-
-        type: DataTypes.STRING
-    }
-}, {
-
+      type: DataTypes.STRING,
+    },
+  },
+  {
     sequelize: db,
-    modelName: "library"
-});
+    modelName: "library",
+  }
+);
 
 module.exports = Library;

@@ -9,7 +9,7 @@
     "relations": "node seeds/seedGames.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maria Cruz Schena",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.21"

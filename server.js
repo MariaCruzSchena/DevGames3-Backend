@@ -23,8 +23,8 @@ const PORT = process.env.PORT;
 const server = express();
 
 const corsOptions = {
-  credentials: true,
   origin: process.env.CORS_ORIGIN,
+  credentials: true,
 };
 
 server.use(volleyball);
